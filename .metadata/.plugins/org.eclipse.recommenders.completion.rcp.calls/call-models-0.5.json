@@ -1,0 +1,32 @@
+{
+  "C:\\Documents and Settings\\dell\\workspace\\Reader56\\src": {
+    "location": "C:\\Documents and Settings\\dell\\workspace\\Reader56\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Documents and Settings\\dell\\workspace\\Reader56\\src\u0027. Skipped."
+  },
+  "E:\\java+JDK_Eclipse+Android_SDK\\android-sdk_r22.0.1-windows\\android-sdk-windows\\platforms\\android-7\\android.jar": {
+    "location": "E:\\java+JDK_Eclipse+Android_SDK\\android-sdk_r22.0.1-windows\\android-sdk-windows\\platforms\\android-7\\android.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027E:\\java+JDK_Eclipse+Android_SDK\\android-sdk_r22.0.1-windows\\android-sdk-windows\\platforms\\android-7\\android.jar\u0027. Neither fingerprint \u002719cd75888d1d75d3ae3cb7a8692153da5d65eb13\u0027 nor symbolic name \u0027android\u0027 are known."
+  },
+  "E:\\java+JDK_Eclipse+Android_SDK\\android-sdk_r22.0.1-windows\\android-sdk-windows\\platforms\\android-17\\android.jar": {
+    "location": "E:\\java+JDK_Eclipse+Android_SDK\\android-sdk_r22.0.1-windows\\android-sdk-windows\\platforms\\android-17\\android.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027E:\\java+JDK_Eclipse+Android_SDK\\android-sdk_r22.0.1-windows\\android-sdk-windows\\platforms\\android-17\\android.jar\u0027. Neither fingerprint \u0027322db3959c3383f4be9daa75ffa427d1485879ad\u0027 nor symbolic name \u0027android\u0027 are known."
+  },
+  "C:\\Documents and Settings\\dell\\workspace\\testWidget\\gen": {
+    "location": "C:\\Documents and Settings\\dell\\workspace\\testWidget\\gen",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Documents and Settings\\dell\\workspace\\testWidget\\gen\u0027. Skipped."
+  },
+  "C:\\Documents and Settings\\dell\\workspace\\Reader56\\gen": {
+    "location": "C:\\Documents and Settings\\dell\\workspace\\Reader56\\gen",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Documents and Settings\\dell\\workspace\\Reader56\\gen\u0027. Skipped."
+  },
+  "C:\\Documents and Settings\\dell\\workspace\\ui_scroll_view_1\\gen": {
+    "location": "C:\\Documents and Settings\\dell\\workspace\\ui_scroll_view_1\\gen",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Documents and Settings\\dell\\workspace\\ui_scroll_view_1\\gen\u0027. Skipped."
+  }
+}

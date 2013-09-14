@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cc00ff" >
+    <include layout="@layout/uphead"/>
+    
+    <!-- Name Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="名字(选填)"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:textColor="#cc1100"
+        android:paddingTop="10dip"
+        android:textSize="12sp"/>
+    
+    <!-- Input Name -->
+    <EditText android:id="@+id/inputName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+    
+    <!-- Price Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="邮箱(选填)"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:textColor="#cc1100"
+        android:paddingTop="10dip"
+        android:textSize="12sp"/>
+    
+    <!-- Input Price -->
+    <EditText android:id="@+id/inputEmail" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"/>
+    
+    <!-- Description Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="建议(必填)"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textColor="#cc1100"
+        android:textSize="12sp"/>
+    
+    <!-- Input description -->
+    <EditText android:id="@+id/inputDesc" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:lines="4"
+        android:gravity="top"/>
+    
+    <!-- Button Create Product -->
+    <Button android:id="@+id/btnCreateProduct" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:textSize="20sp"
+        android:textColor="#cc1100"
+        />
+    
+</LinearLayout>

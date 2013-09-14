@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Android_and_php_test_1/res/layout/up.xml&apos; to &apos;up1.xml&apos;" description="Rename resource &apos;up.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/up.xml" name="up1.xml" stamp="1379081477140" updateReferences="true"/>
+</session>

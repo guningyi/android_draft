@@ -1,0 +1,65 @@
+package com.example.android_and_php_test_1;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.view.Menu;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class Up extends Activity {
+
+	// Progress Dialog
+    private ProgressDialog pDialog;
+    private TextView tv_head;
+    JSONParser jsonParser = new JSONParser();
+    EditText inputName;
+    EditText inputEmail;
+    EditText inputDesc;
+    Button upback;
+    
+    // url to create new product
+    private static String url_up = "http://10.0.2.2/up/up.php";
+    private static final String TAG_MESSAGE = "message";
+	
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.up);
+        tv_head = (TextView)findViewById(R.id.tv_head);
+        tv_head.setText("Ω®“È");
+        // Edit Text
+        inputName = (EditText) findViewById(R.id.inputName);
+        inputEmail = (EditText) findViewById(R.id.inputEmail);
+        inputDesc = (EditText) findViewById(R.id.inputDesc);
+        upback = (Button)findViewById(R.id.upback);
+        upback.setOnClickListener(new OnClickListener() {
+            
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                Intent back = new Intent(up.this,MainActivity.class);
+                back.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);  
+                startActivity(back);
+                up.this.finish();
+            }
+        });
+
+        // Create button
+        Button btnCreateProduct = (Button) findViewById(R.id.btnCreateProduct);
+        // button click event
+        btnCreateProduct.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                // creating new product in background thread
+                if(validate()){                
+                new Up().execute();            
+            }
+                }
+        });
+    }
+    
+
+
+}

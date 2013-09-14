@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <LinearLayout
+        android:id="@+id/imageCotainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+     <ImageView
+         android:id="@+id/image"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:scaleType="fitXY"
+         android:src="@drawable/main1"/>
+     </LinearLayout> 
+    
+    <LinearLayout
+        android:id="@+id/buttonCotainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+        android:id="@+id/startRead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startRead" />
+        <!-- 
+        <Button
+        android:id="@+id/searchBook"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/searchBook" />
+         -->
+         <Button
+        android:id="@+id/setting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting" />
+        <Button
+        android:id="@+id/exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exit" />
+                 
+     </LinearLayout>    
+</RelativeLayout>

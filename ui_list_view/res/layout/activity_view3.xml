@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:gravity="center_vertical">
+
+<LinearLayout 
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:gravity="center_vertical">
+	<!-- logo1 -->
+	<ImageView android:id="@+id/logo1" 
+	    android:layout_width="50dp"
+		android:layout_height="50dp" 
+		android:src="@drawable/logo1"
+		android:paddingLeft="5dp" />
+	<RelativeLayout android:id="@+id/rl_name_1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:gravity="right"
+		android:padding="10dp">
+		<TextView android:id="@+id/tvApplicationName_1"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:text="@string/appname1" />
+	</RelativeLayout>
+	<RelativeLayout android:id="@+id/rl_score_1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:gravity="right"
+		android:padding="10dp">
+		<TextView android:id="@+id/tvRating_1" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="5.0" />
+		<RatingBar android:id="@+id/ratingbar_1" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:numStars="5"
+			style="?android:attr/ratingBarStyleSmall" 
+			android:layout_below="@id/tvRating_1" />
+	</RelativeLayout>
+</LinearLayout>
+
+
+
+<LinearLayout 
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:gravity="center_vertical">
+	<!-- logo2 -->
+	<ImageView android:id="@+id/logo2" 
+	    android:layout_width="50dp"
+		android:layout_height="50dp" 
+		android:src="@drawable/logo2"
+		android:paddingLeft="5dp" />
+	<RelativeLayout android:id="@+id/rl_name_2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:gravity="right"
+		android:padding="10dp">
+		<TextView android:id="@+id/tvApplicationName"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textSize="16sp" 
+			android:text="@string/appname2" />
+	</RelativeLayout>
+	<RelativeLayout android:id="@+id/rl_score_2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:gravity="right"
+		android:padding="10dp">
+		<TextView android:id="@+id/tvRating_2" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="5.0" />
+		<RatingBar android:id="@+id/ratingbar_2" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:numStars="5"
+			style="?android:attr/ratingBarStyleSmall" 
+			android:layout_below="@id/tvRating_2" />
+	</RelativeLayout>
+</LinearLayout>
+
+
+
+<LinearLayout 
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:gravity="center_vertical">
+<!-- logo3 -->
+	<ImageView android:id="@+id/logo3" 
+	    android:layout_width="50dp"
+		android:layout_height="50dp" 
+		android:src="@drawable/logo3"
+		android:paddingLeft="5dp" />
+	<RelativeLayout android:id="@+id/rl_name_3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:gravity="right"
+		android:padding="10dp">
+		<TextView android:id="@+id/tvApplicationName_3"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:text="@string/appname3"  />
+	</RelativeLayout>
+	<RelativeLayout android:id="@+id/rl_score_3"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:gravity="right"
+		android:padding="10dp">
+		<TextView android:id="@+id/tvRating_3" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="5.0" />
+		<RatingBar android:id="@+id/ratingbar_3" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:numStars="5"
+			style="?android:attr/ratingBarStyleSmall" 
+			android:layout_below="@id/tvRating_3" />
+	</RelativeLayout>	
+</LinearLayout>
+
+<LinearLayout 
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:gravity="center_vertical">
+	<!-- logo4 -->
+	<ImageView android:id="@+id/logo4" 
+	    android:layout_width="50dp"
+		android:layout_height="50dp" 
+		android:src="@drawable/logo4"
+		android:paddingLeft="5dp" />
+	<RelativeLayout android:id="@+id/rl_name_4"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:gravity="right"
+		android:padding="10dp">
+		<TextView android:id="@+id/tvApplicationName_4"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:text="@string/appname4"  />
+	</RelativeLayout>
+	<RelativeLayout android:id="@+id/rl_score_4"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:gravity="right"
+		android:padding="10dp">
+		<TextView android:id="@+id/tvRating_4" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="5.0" />
+		<RatingBar android:id="@+id/ratingbar_4" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:numStars="5"
+			style="?android:attr/ratingBarStyleSmall" 
+			android:layout_below="@id/tvRating_4" />
+	</RelativeLayout>
+</LinearLayout>
+
+<LinearLayout 
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:gravity="center_vertical">
+	<!-- logo5 -->
+	<ImageView android:id="@+id/logo5" 
+	    android:layout_width="50dp"
+		android:layout_height="50dp" 
+		android:src="@drawable/logo5"
+		android:paddingLeft="5dp" />
+	<RelativeLayout android:id="@+id/rl_name_5"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:gravity="right"
+		android:padding="10dp">
+		<TextView android:id="@+id/tvApplicationName_5"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textSize="16sp" 
+			android:text="@string/appname5" />
+	</RelativeLayout>
+	<RelativeLayout android:id="@+id/rl_score_5"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:gravity="right"
+		android:padding="10dp">
+		<TextView android:id="@+id/tvRating_5" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="5.0" />
+		<RatingBar android:id="@+id/ratingbar_5" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:numStars="5"
+			style="?android:attr/ratingBarStyleSmall" 
+			android:layout_below="@id/tvRating_5" />
+	</RelativeLayout>
+</LinearLayout>
+
+<LinearLayout 
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:gravity="center_vertical">
+	<!-- logo6 -->
+	<ImageView android:id="@+id/logo6" 
+	    android:layout_width="50dp"
+		android:layout_height="50dp" 
+		android:src="@drawable/logo6"
+		android:paddingLeft="5dp" />
+	<RelativeLayout android:id="@+id/rl_name_6"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:gravity="right"
+		android:padding="10dp">
+		<TextView android:id="@+id/tvApplicationName_6"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textSize="16sp" 
+			android:text="@string/appname6" />
+	</RelativeLayout>
+	<RelativeLayout android:id="@+id/rl_score_6"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:gravity="right"
+		android:padding="10dp">
+		<TextView android:id="@+id/tvRating_6" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="5.0" />
+		<RatingBar android:id="@+id/ratingbar_6" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:numStars="5"
+			style="?android:attr/ratingBarStyleSmall" 
+			android:layout_below="@id/tvRating_6" />
+	</RelativeLayout>
+</LinearLayout>
+
+</LinearLayout>
+
+    

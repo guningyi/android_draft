@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">E-Book</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_view1">View1</string>
+    <string name="goToView1">goToView1</string>
+    <string name="goToView2">goToView2</string>
+    <string name="goToView3">goToView3</string>
+    <string name="title_activity_view2">View2</string>
+    <string name="title_activity_view3">View3</string>
+    
+    <string name="appname1">football_1</string>
+    <string name="appname2">football_2</string>
+    <string name="appname3">football_3</string>
+    <string name="appname4">football_4</string>
+    <string name="appname5">football_5</string>
+    <string name="appname6">football_6</string>
+    
+
+</resources>

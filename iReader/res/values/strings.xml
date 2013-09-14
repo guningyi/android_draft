@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Window_Activity!</string>
+    <string name="app_name">酷读阅读器</string>
+  
+    <string name="search">找书</string>
+    <string name="bookmark">书签</string>
+    <string name="turnpage">自动翻页</string>
+    <string name="setup">设置</string>
+    
+    <string name="fhzl">粉红之恋</string>
+    <string name="lsct">绿了春天</string>
+    <string name="sjzx">水晶之心</string>
+    <string name="ssnh">似水年华</string>
+    <string name="wffm">微风拂面</string>
+    <string name="ygmm">阳光明媚</string>
+    
+    <string name="tc_black">黑</string>
+    <string name="tc_blue">蓝</string>
+   	<string name="tc_gray">灰</string>
+   	<string name="tc_green">绿</string>
+   	<string name="tc_purper">紫</string>
+   	<string name="tc_red">红</string>
+   	<string name="tc_yellow">黄</string>
+   	<string name="tc_white">白</string>
+   
+   	<string name="bookmark_dialog">书签</string>
+   	<string name="clear_bookmark">清空书签</string>
+   	<string name="font_size">字体大小</string>
+   	<string name="font_color">字体颜色</string>
+   	<string name="music_name">背景音乐</string>
+   
+   	<string name="ok">确定</string>
+   	<string name="cancel">取消</string>
+   
+   	<string name="exit_bookmark">确定要退出阅读器？</string>
+   	<string name="delete_onebookmark">确定要删除这条记录吗？</string>
+   	<string name="delete_allbookmark">确定要删除这本书的全部书签吗？</string>
+   	
+   	<string name="font_size32">大号字体</string>
+   	<string name="font_size24">中号字体</string>
+   	<string name="font_size16">小号字体</string>
+   	
+   	<string name="music_gs">高山流水</string>
+   	<string name="music_mh">梅花三弄</string>
+   	
+   	
+   	<string name="nextChapter">下一章</string>
+   	<string name="prevChapter">上一章</string>
+   
+</resources>

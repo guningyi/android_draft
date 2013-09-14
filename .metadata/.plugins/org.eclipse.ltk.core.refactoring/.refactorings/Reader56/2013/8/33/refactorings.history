@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Reader56/res/layout/hiddenBar.xml&apos; to &apos;hidden_bar.xml&apos;" description="Rename resource &apos;hiddenBar.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/hiddenBar.xml" name="hidden_bar.xml" stamp="1376709949859" updateReferences="true"/>
+</session>

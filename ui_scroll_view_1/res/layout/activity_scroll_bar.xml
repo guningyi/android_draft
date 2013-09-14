@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id ="@+id/navigator"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+<ScrollView 
+    android:id="@+id/scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    
+<LinearLayout
+       android:id="@+id/layout"
+       android:orientation="vertical"
+       android:layout_width="fill_parent" 
+       android:layout_height="wrap_content">
+
+       <TextView
+         android:id="@+id/text"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:textSize="40sp"
+       />
+
+</LinearLayout>
+
+</ScrollView>
+
+<LinearLayout
+       android:orientation="vertical"
+       android:layout_width="fill_parent" 
+       android:layout_height="wrap_content">
+     <Button
+        android:id="@+id/prevChapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上一章" />
+
+    <Button
+        android:id="@+id/nextChapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下一章" />   
+</LinearLayout>
+
+</LinearLayout>

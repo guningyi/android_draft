@@ -1,0 +1,327 @@
+[
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\eBook_v2.1\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\eBook_v1\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "annotations",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c0e410eee5109934c55566995e3dc3f2db0ba52b",
+    "jarFileModificationDate": "2013-05-22T16:51:44+08:00",
+    "location": "E:\\java+JDK_Eclipse+Android_SDK\\android-sdk_r22.0.1-windows\\android-sdk-windows\\tools\\support\\annotations.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-16T08:48:03.150+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\ui_list_view\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-19T14:41:22.659+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\ui_scroll_view_1\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\eBook_v5\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\eBook_v2\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\电子书\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\eBook_v7.1\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9495e7392f92f1ecf50b4e7203a1f1fb91cc78c7",
+    "jarFileModificationDate": "2013-07-04T21:04:02.203+08:00",
+    "location": "E:\\java+JDK_Eclipse+Android_SDK\\android-sdk_r22.0.1-windows\\android-sdk-windows\\platforms\\android-3\\android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-09-13T20:50:41.531+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\Android_and_php_test_1\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\eBook_v8.1\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\eBook_v8\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\ebook_v10\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\eBook_v4\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\eBook_v6\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\eBook_v9.1\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-07-04T13:08:22+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\HelloWorld\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "322db3959c3383f4be9daa75ffa427d1485879ad",
+    "jarFileModificationDate": "2013-07-04T20:24:16.296+08:00",
+    "location": "E:\\java+JDK_Eclipse+Android_SDK\\android-sdk_r22.0.1-windows\\android-sdk-windows\\platforms\\android-17\\android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\eBook_v3\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2567fcef5bb2ca93e22a9df4f2dbf895daeb3e33",
+    "jarFileModificationDate": "2013-07-04T20:53:57.156+08:00",
+    "location": "E:\\java+JDK_Eclipse+Android_SDK\\android-sdk_r22.0.1-windows\\android-sdk-windows\\platforms\\android-8\\android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\eBook_v7\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\ebook_v10.1\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "19cd75888d1d75d3ae3cb7a8692153da5d65eb13",
+    "jarFileModificationDate": "2013-07-04T20:58:26.812+08:00",
+    "location": "E:\\java+JDK_Eclipse+Android_SDK\\android-sdk_r22.0.1-windows\\android-sdk-windows\\platforms\\android-7\\android.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bd6479f5dd592790607e0504e66e0f31c2b4d308",
+    "jarFileModificationDate": "2013-08-20T19:55:33.250+08:00",
+    "location": "C:\\Documents and Settings\\dell\\workspace\\eBook_v9\\libs\\android-support-v4.jar",
+    "javaRuntime": false
+  }
+]

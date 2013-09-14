@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;testWidget/res/layout/dialog_layout.xml&apos; to &apos;vlist.xml&apos;" description="Rename resource &apos;dialog_layout.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/dialog_layout.xml" name="vlist.xml" stamp="1376569487578" updateReferences="true"/>
+</session>

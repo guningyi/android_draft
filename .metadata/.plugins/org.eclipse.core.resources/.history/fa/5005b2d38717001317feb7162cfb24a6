@@ -1,0 +1,5 @@
+package com.example.ebook_v1;
+
+public class SplashScreen extends Activity{
+
+}

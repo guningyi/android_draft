@@ -1,0 +1,35 @@
+package com.example.android_and_php_test_1;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.view.Menu;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class Up extends Activity {
+
+	// Progress Dialog
+    private ProgressDialog pDialog;
+    private TextView tv_head;
+    JSONParser jsonParser = new JSONParser();
+    EditText inputName;
+    EditText inputEmail;
+    EditText inputDesc;
+    Button upback;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.up);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.up, menu);
+		return true;
+	}
+
+}

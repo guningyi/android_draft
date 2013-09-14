@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helloworld"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.helloworld.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.helloworld.MyGroupActivity"
+            android:label="@string/title_activity_my_group" >
+        </activity>
+        <activity
+            android:name="com.example.helloworld.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.example.helloworld.GroupListActivity"
+            android:label="@string/title_activity_group_list" >
+        </activity>
+        <activity
+            android:name="com.example.helloworld.GroupDetailActivity"
+            android:label="@string/title_activity_group_detail" >
+        </activity>
+        <activity
+            android:name="com.example.helloworld.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.helloworld.AddGroupActivity"
+            android:label="@string/title_activity_add_group" >
+        </activity>
+        <activity
+            android:name="com.example.helloworld.GroupPhotoActivity"
+            android:label="@string/title_activity_group_photo" >
+        </activity>
+    </application>
+
+</manifest>
