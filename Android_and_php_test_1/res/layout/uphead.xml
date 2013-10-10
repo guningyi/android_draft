@@ -3,20 +3,19 @@
         android:layout_width="fill_parent"
         android:layout_height="50dp"
         android:background="#f00000" >
-        <TextView
-            android:id="@+id/tv_head"
+        <TextView android:id="@+id/tv_head"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:shadowColor="#ff000000"
+            android:shadowColor="#ff0000"
             android:shadowDx="2"
-            android:shadowDy="0"
+            android:shadowDy="0"        
             android:shadowRadius="1"
-            android:text=""
+            android:text="qqq"
             android:textColor="#ffffff"
             android:textSize="18sp"
             android:textStyle="bold" />
-        <Button
+        <Button 
             android:id="@+id/upback"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -25,5 +24,4 @@
             android:layout_marginLeft="17dp"
             android:drawableLeft="@id/tv_head"
             android:background="#ff0000" />
-        
-    </RelativeLayout>
+</RelativeLayout>

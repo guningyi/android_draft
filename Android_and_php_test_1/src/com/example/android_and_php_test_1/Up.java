@@ -11,9 +11,11 @@ import org.json.JSONObject;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.AttributeSet;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -26,6 +28,7 @@ public class Up extends Activity {
 	// Progress Dialog
     private ProgressDialog pDialog;
     private TextView tv_head;
+    private String testString = null;
     JSONParser jsonParser = new JSONParser();
     EditText inputName;
     EditText inputEmail;
@@ -36,6 +39,8 @@ public class Up extends Activity {
     private static String url_up = "http://10.0.2.2/up/up.php";
     private static final String TAG_MESSAGE = "message";
 	
+  
+    
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
