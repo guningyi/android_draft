@@ -18,7 +18,7 @@ public class HomeActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		TextView textView=new TextView(this);
-		textView.setText("Ê×Ò³");
+		textView.setText("ï¿½ï¿½Ò³");
 		setContentView(textView);
 	}
 	
