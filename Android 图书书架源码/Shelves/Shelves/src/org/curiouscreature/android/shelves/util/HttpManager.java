@@ -38,6 +38,10 @@ import java.io.IOException;
 
 public class HttpManager {
     private static final DefaultHttpClient sClient;
+    /*
+     * 为整个程序提供唯一的DefaultHttpClient对象，
+     * 这里将params设置为final，不知道后面是否可以改写params中的属性?
+     * */
     static {
         final HttpParams params = new BasicHttpParams();
         HttpProtocolParams.setVersion(params, HttpVersion.HTTP_1_1);
@@ -51,7 +55,7 @@ public class HttpManager {
         HttpClientParams.setRedirecting(params, false);
 
         HttpProtocolParams.setUserAgent(params, "Shelves/1.1");
-
+        //注册？
         SchemeRegistry schemeRegistry = new SchemeRegistry();
         schemeRegistry.register(new Scheme("http", PlainSocketFactory.getSocketFactory(), 80));
         schemeRegistry.register(new Scheme("https", SSLSocketFactory.getSocketFactory(), 443));

@@ -32,6 +32,7 @@ public class CookieStore {
     private static final String LOG_TAG = "Shelves";
 
     private static final CookieStore sCookieStore;
+    //在类被第一次加载的时候调用一次，创建一个类的实例，以后就不再被调用了。
     static {
         sCookieStore = new CookieStore();
     }
@@ -44,6 +45,10 @@ public class CookieStore {
         CookieManager.getInstance().removeExpiredCookie();
     }
 
+    /*
+     * CookieStore向其它类开放的接口，获取CookieStore的实例。
+     * 类似于单例模式
+     * */
     public static CookieStore get() {
         return sCookieStore;
     }

@@ -38,12 +38,17 @@ public class BooksManager {
     };
     private static final String[] PROJECTION_ID = new String[] { BooksStore.Book._ID };
 
-    static {
+    static {//仅在类被加载的时候执行且仅被执行一次
         StringBuilder selection = new StringBuilder();
         selection.append(BooksStore.Book.INTERNAL_ID);
         selection.append("=?");
         sBookIdSelection = selection.toString();
-
+        
+        /*
+         * stringbuilder 主要是解决对字符串做频繁修改操作时的性能问题，
+         * 有一个容量的概念，先分配好一定的内存，在字符串长度达到上限之前，全部在此内存内操作，不涉及内存的重新分配和回收。
+		 * 而 string 每次修改都会重新创建一个对象。
+         * */
         selection = new StringBuilder();
         selection.append(sBookIdSelection);
         selection.append(" OR ");
@@ -51,6 +56,11 @@ public class BooksManager {
         selection.append("=? OR ");
         selection.append(BooksStore.Book.ISBN);
         selection.append("=?");
+        /*
+         * toString()方法就是把对象转换成String类型，转换的算法根据类型和实际需要而定
+         * 所谓的把对象转换，其实是指对象中的成员变量而言，可以实例化的对象和不可实例化的对象
+         * 的区别就是前者有了具体的内存分配
+         * */
         sBookSelection = selection.toString();
     }
 

@@ -16,6 +16,9 @@
 
 package org.curiouscreature.android.shelves.util;
 
+
+import org.curiouscreature.android.shelves.R;
+
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.view.View;
@@ -23,7 +26,7 @@ import android.view.LayoutInflater;
 import android.widget.TextView;
 import android.widget.ImageView;
 import android.widget.Toast;
-import org.curiouscreature.android.shelves.R;
+
 
 public class UIUtilities {
     private UIUtilities() {

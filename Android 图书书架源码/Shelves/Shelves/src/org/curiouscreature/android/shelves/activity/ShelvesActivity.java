@@ -163,14 +163,14 @@ public class ShelvesActivity extends Activity {
 
     private void setupViews() {
         final BooksAdapter adapter = new BooksAdapter(this);
-        mDefaultCover = adapter.getDefaultCover();
+        mDefaultCover = adapter.getDefaultCover();//获取默认的书籍封面
 
         mGrid = (ShelvesView) findViewById(R.id.grid_shelves);
 
         final ShelvesView grid = mGrid;
         grid.setTextFilterEnabled(true);
-        grid.setAdapter(adapter);
-        grid.setOnScrollListener(new ShelvesScrollManager());
+        grid.setAdapter(adapter);//绑定适配器
+        grid.setOnScrollListener(new ShelvesScrollManager());//设置监听器
         grid.setOnTouchListener(new FingerTracker());
         grid.setOnItemSelectedListener(new SelectionTracker());
         grid.setOnItemClickListener(new BookViewer());

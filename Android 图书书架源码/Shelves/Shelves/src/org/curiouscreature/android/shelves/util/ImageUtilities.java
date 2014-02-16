@@ -86,6 +86,16 @@ public class ImageUtilities {
     private static SimpleDateFormat sLastModifiedFormat;
 
     static {
+    	/*
+    	 * Shader类专门用来渲染图像以及一些几何图形.
+    	 * BitmapShader主要用来渲染图像，
+    	 * LinearGradient 用来进行梯度渲染，
+    	 * RadialGradient 用来进行环形渲染，
+    	 * SweepGradient 用来进行梯度渲染，
+    	 * ComposeShader则是一个 混合渲染，可以和其它几个子类组合起来使用。 
+         * Shader类的使用，都需要先构建Shader对象，然后通过Paint的setShader方法设置渲染对象，
+         * 然后设置渲染对象，然后再绘制时使用这个Paint对象即可。
+    	 * */
         Shader shader = new LinearGradient(EDGE_START, 0.0f, EDGE_END, 0.0f, EDGE_COLOR_START,
                 EDGE_COLOR_END, Shader.TileMode.CLAMP);
         EDGE_PAINT.setShader(shader);

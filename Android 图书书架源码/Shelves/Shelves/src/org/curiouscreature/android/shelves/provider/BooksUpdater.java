@@ -47,11 +47,22 @@ public class BooksUpdater implements Runnable{
 
     private static final HashMap<String, Long> sLastChecks = new HashMap<String, Long>();
 
+    /*
+     * 一个由数组支持的有界阻塞队列。它的本质是一个基于数组的blocking queue的实现。
+     * 它的容纳大小是固定的。此队列按 FIFO（先进先出）原则对元素进行排序。
+     * */
     private final BlockingQueue<String> mQueue = new ArrayBlockingQueue<String>(12);
     private final ContentResolver mResolver;
+    /*
+     * 转换时间格式
+     * */
     private final SimpleDateFormat mLastModifiedFormat;
     private final String mSelection;
     private final String[] mArguments = new String[1];
+    /*
+     * ContentValues类和 Hashtable比较类似，它也是负责存储一些名值对，
+     * 但是它存储的名值对当中的名是一个String类型，而值都是基本类型。
+     * */
     private final ContentValues mValues = new ContentValues();
 
     private Thread mThread;
@@ -93,9 +104,9 @@ public class BooksUpdater implements Runnable{
         Process.setThreadPriority(Process.THREAD_PRIORITY_BACKGROUND);
         final ImageUtilities.ExpiringBitmap expiring = new ImageUtilities.ExpiringBitmap();
 
-        while (!mStopped) {
+        while (!mStopped) {//条件不成立
             try {
-                final String bookId = mQueue.take();
+                final String bookId = mQueue.take();//去任务队列的首元素
 
                 final Long lastCheck = sLastChecks.get(bookId);
                 if (lastCheck != null && (lastCheck + ONE_DAY) >= System.currentTimeMillis()) {

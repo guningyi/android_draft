@@ -78,6 +78,9 @@ public final class ImportUtilities {
         return list;
     }
 
+    /*
+     * 在shelves/books目录下创建书的封面图片
+     * */
     public static boolean addBookCoverToCache(BooksStore.Book book, Bitmap bitmap) {
         File cacheDirectory;
         try {
@@ -100,6 +103,9 @@ public final class ImportUtilities {
         return true;
     }
 
+    /*
+     * 检查内存中shelves/books目录是否存在，不存在就创建它
+     * */
     private static File ensureCache() throws IOException {
         File cacheDirectory = getCacheDirectory();
         if (!cacheDirectory.exists()) {

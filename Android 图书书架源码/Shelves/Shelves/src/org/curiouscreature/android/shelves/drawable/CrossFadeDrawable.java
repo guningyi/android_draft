@@ -61,7 +61,7 @@ public class CrossFadeDrawable extends Drawable {
         mHandler = new Handler();
         mInvalidater = new Runnable() {
             public void run() {
-                invalidateSelf();
+                invalidateSelf();//请求该view刷新自己
             }
         };
     }

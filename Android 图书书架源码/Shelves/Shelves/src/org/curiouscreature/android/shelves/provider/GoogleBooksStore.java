@@ -32,7 +32,7 @@ import java.text.SimpleDateFormat;
 import java.text.ParseException;
 
 class GoogleBooksStore extends BooksStore {
-    private static final String API_REST_HOST = "books.google.com";
+    private static final String API_REST_HOST = "books.google.com";//google图书主页
     private static final String API_REST_URL = "/books/feeds/volumes";
 
     private static final String API_ITEM_LOOKUP = "q";
@@ -75,6 +75,21 @@ class GoogleBooksStore extends BooksStore {
         return new Book(getName(), mLoader);
     }
 
+    
+    //URI是andorid中的一种类型
+    /*
+     * 
+     * 
+     * 就Android平台而言，URI主要分三个部分：scheme, authority and path。
+     * 其中authority又分为host和port。格式如下：scheme://host:port/path
+		举个实际的例子：
+		content://com.example.project:200/folder/subfolder/etc
+		\----/  \------------------/ \---/ \-----------------/
+		scheme         host          port        path
+                \------------------------/
+                       authority   
+     * 
+     * */
     @Override
     Uri.Builder buildSearchBooksQuery(String query) {
         final Uri.Builder uri = buildGetMethod();

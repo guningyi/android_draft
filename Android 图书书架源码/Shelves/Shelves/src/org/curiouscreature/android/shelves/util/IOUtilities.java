@@ -28,7 +28,9 @@ public final class IOUtilities {
     private static final String LOG_TAG = "IOUtilities";
 
     public static final int IO_BUFFER_SIZE = 4 * 1024;
-
+    /*
+     * 获取存储卡的路径
+     * */
     public static File getExternalFile(String file) {
         return new File(Environment.getExternalStorageDirectory(), file);
     }
